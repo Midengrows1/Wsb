@@ -2121,7 +2121,7 @@ label {
 
   .faq__bottom{
     text-align: center;
-    line-height: 12px;
+    line-height: 10px;
     font-size: calc(9px + (8 + 8 * 0.7) *((100vw - 320px) / 1200));
   }
 }
