@@ -2117,19 +2117,19 @@ label {
   /* font-size: 17px; */
   font-size: calc(14px + 3 * (100vw / 1200))
 }
-@media(max-width:800px){
+@media(max-width:1200px){
 
   .faq__bottom{
     text-align: center;
-    line-height: 12px;
-    font-size: calc(8px + (9 + 9 * 0.7) *((100vw - 320px) / 1200));
+    line-height: 10px;
+    font-size: calc(7px + (10 + 10 * 0.7) *((100vw - 320px) / 1200));
   }
 }
 @media(max-width:400px){
 
   .faq__bottom{
     text-align: center;
-    line-height: 10px;
+    line-height: 8px;
     font-size: calc(7px + (10 + 10 * 0.7) *((100vw - 300px) / 1200));
   }
 }
