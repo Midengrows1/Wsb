@@ -1976,6 +1976,7 @@ textarea.w-select {
   margin: auto;
   position: relative;
   align-content: center;
+  outline: none;
 }
 
 /* .triangle {
@@ -2013,6 +2014,7 @@ label {
   flex-direction: row;
   margin: 1em 2.5em;
   align-items: center;
+  outline: none;
   
 }
 #check_label ~.faq__bottom {
@@ -2066,8 +2068,8 @@ label {
 #check_label:checked ~ .faq__bottom {
   height: 4rem;
   opacity: 1;
-  overflow: hidden;
-
+  overflow: hidden; 
+  outline: none;
 }
 #check_label_one:checked ~ .faq__bottom {
   height: 4rem;
