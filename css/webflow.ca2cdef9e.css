@@ -1976,7 +1976,6 @@ textarea.w-select {
   margin: auto;
   position: relative;
   align-content: center;
-  outline: none;
 }
 
 /* .triangle {
@@ -2014,17 +2013,12 @@ label {
   flex-direction: row;
   margin: 1em 2.5em;
   align-items: center;
-  outline: none;
   
 }
 #check_label ~.faq__bottom {
   height: 0px;
   opacity: 1;
   overflow: hidden;
-}
-#check_label:checked ~ i .fas {
-  transition: all .4s linear;
-  transform: rotate(90deg);
 }
 #check_label_one ~.faq__bottom {
   height: 0px;
@@ -2070,37 +2064,37 @@ label {
   display: none;
 }
 #check_label:checked ~ .faq__bottom {
-  height: 4rem;
+  height: 3rem;
   opacity: 1;
-  overflow: hidden; 
-  outline: none;
+  overflow: hidden;
+
 }
 #check_label_one:checked ~ .faq__bottom {
-  height: 4rem;
+  height: 3rem;
   opacity: 1;
   overflow: hidden;
 
 }
 #check_label_two:checked ~ .faq__bottom {
-  height: 4rem;
+  height: 3rem;
   opacity: 1;
   overflow: hidden;
 
 }
 #check_label_three:checked ~ .faq__bottom {
-  height: 4rem;
+  height: 3rem;
   opacity: 1;
   overflow: hidden;
 
 }
 #check_label_fourth:checked ~ .faq__bottom {
-  height: 4rem;
+  height: 3rem;
   opacity: 1;
   overflow: hidden;
 
 }
 #check_label_five:checked ~ .faq__bottom {
-  height: 4rem;
+  height: 3rem;
   opacity: 1;
   overflow: hidden;
 
@@ -2118,7 +2112,7 @@ label {
   justify-content: center;
   font-size: 17px;
   margin: auto;
-  transition: all .4s linear;
+  transition: all 0.4s linear;
   overflow: hidden;
   /* font-size: 17px; */
   font-size: calc(10px + 7 * (100vw / 1200))
@@ -2127,7 +2121,7 @@ label {
   .faq__bottom{
     display: flex;
     text-align: center;
-   
+    line-height: 10px;
     font-size: calc(10px + (7 + 7 * 0.7) *((100vw - 320px) /1200));
   }
 }
