@@ -2125,6 +2125,14 @@ label {
     font-size: calc(9px + (8 + 8 * 0.7) *((100vw - 320px) / 1200));
   }
 }
+@media(max-width:400px){
+
+  .faq__bottom{
+    text-align: center;
+    line-height: 8px;
+    font-size: calc(9px + (8 + 8 * 0.7) *((100vw - 300px) / 1200));
+  }
+}
 
 .activebtn{
   transition: all .4s linear;
