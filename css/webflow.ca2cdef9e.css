@@ -1951,10 +1951,34 @@ textarea.w-select {
 .home {
   width: 100%;
   height: 100%;
-  background-image: url("../images/bg.png");
+  /* background-image: url("../images/bg.png"); */
   background-position: center;
 }
 
+.bcg-img{
+  width: 100%;
+  
+  z-index: -1;
+  position: absolute;
+ 
+  position: center;
+  background-position: center;
+
+}
+@media (max-width:1200px){
+  .home{
+    background-position: center;
+      
+  }
+@media (max-width:950px){
+  .bcg-img  img {
+    height: 500px;
+  }
+  .home{
+    background-position: center;
+      
+  }
+}
 .center-text {
   text-align: center;
   margin: auto;
@@ -2123,7 +2147,7 @@ label {
     text-align: center;
     height: 4rem;
     line-height: 7px;
-    font-size: calc(7px + (10 + 10 * 0.7) *((100vw - 320px) / 1200));
+    font-size: calc(10px + (10 + 10 * 0.7) *((100vw - 320px) / 1200));
   }
 }
 @media(max-width:400px){
@@ -2132,7 +2156,7 @@ label {
     text-align: center;
     height: 4rem;
 line-height: 7px;
-    font-size: calc(7px + (10 + 10 * 0.7) *((100vw - 300px) / 1200));
+    font-size: calc(10px + (10 + 10 * 0.7) *((100vw - 300px) / 1200));
   }
 }
 
