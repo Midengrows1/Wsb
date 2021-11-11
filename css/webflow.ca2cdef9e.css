@@ -2000,8 +2000,9 @@ textarea.w-select {
   align-self: center;
   transform: scale(2);
   position: absolute;
-  left: 2%;
+  left: 1.5%;
   transition: all .4s linear;
+ 
 }
 
 label {
@@ -2010,7 +2011,7 @@ label {
   color: #fff;
   display: flex;
   flex-direction: row;
-  margin: 1em 2em;
+  margin: 1em 2.5em;
   align-items: center;
   
 }
@@ -2063,37 +2064,37 @@ label {
   display: none;
 }
 #check_label:checked ~ .faq__bottom {
-  height: 3rem;
+  height: 4rem;
   opacity: 1;
   overflow: hidden;
 
 }
 #check_label_one:checked ~ .faq__bottom {
-  height: 3rem;
+  height: 4rem;
   opacity: 1;
   overflow: hidden;
 
 }
 #check_label_two:checked ~ .faq__bottom {
-  height: 3rem;
+  height: 4rem;
   opacity: 1;
   overflow: hidden;
 
 }
 #check_label_three:checked ~ .faq__bottom {
-  height: 3rem;
+  height: 4rem;
   opacity: 1;
   overflow: hidden;
 
 }
 #check_label_fourth:checked ~ .faq__bottom {
-  height: 3rem;
+  height: 4rem;
   opacity: 1;
   overflow: hidden;
 
 }
 #check_label_five:checked ~ .faq__bottom {
-  height: 3rem;
+  height: 4rem;
   opacity: 1;
   overflow: hidden;
 
@@ -2103,7 +2104,7 @@ label {
 
 .faq__bottom {
   width: 100%;
-  height: 3rem;
+  height: 3.5rem;
   border-radius: 5px;
   background-color: rgba(114, 114, 114, 0.924);
   display: flex;
@@ -2113,6 +2114,16 @@ label {
   margin: auto;
   transition: all 0.4s linear;
   overflow: hidden;
+  /* font-size: 17px; */
+  font-size: calc(10px + 7 * (100vw / 1200))
+}
+@media(max-width:800px){
+  .faq__bottom{
+    display: flex;
+    text-align: center;
+    line-height: 10px;
+    font-size: calc(10px + (7 + 7 * 0.7) *((100vw - 320px) /1200));
+  }
 }
 
 .activebtn{
