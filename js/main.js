@@ -24,18 +24,10 @@ setTimeout(function start() {
 
 let i1 = document.querySelectorAll('.fas')
 
-let label = document.querySelectorAll('label')
-// label.forEach(j=>{
-//   j.addEventListener('click',()=>{
-//     console.log();
-//        i1.classList.toggle('activebtn')
-//   })
-// })
-i1.forEach(item=>{
-  item.addEventListener('click',()=>{
-    item.classList.toggle('activebtn')
-  })
-})
+let label = document.querySelector('label')
+
+
+
 
 
 
