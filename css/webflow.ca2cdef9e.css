@@ -1974,6 +1974,10 @@ textarea.w-select {
   .bcg-img  img {
     height: 500px;
   }
+@media (max-width:450px){
+  .bcg-img  img {
+    height: 600px;
+  }
   .home{
     background-position: center;
       
@@ -2088,37 +2092,37 @@ label {
   display: none;
 }
 #check_label:checked ~ .faq__bottom {
-  height: 3rem;
+  height: 4rem;
   opacity: 1;
   overflow: hidden;
 
 }
 #check_label_one:checked ~ .faq__bottom {
-  height: 3rem;
+  height: 4rem;
   opacity: 1;
   overflow: hidden;
 
 }
 #check_label_two:checked ~ .faq__bottom {
-  height: 3rem;
+  height: 4rem;
   opacity: 1;
   overflow: hidden;
 
 }
 #check_label_three:checked ~ .faq__bottom {
-  height: 3rem;
+  height: 4rem;
   opacity: 1;
   overflow: hidden;
 
 }
 #check_label_fourth:checked ~ .faq__bottom {
-  height: 3rem;
+  height: 4rem;
   opacity: 1;
   overflow: hidden;
 
 }
 #check_label_five:checked ~ .faq__bottom {
-  height: 3rem;
+  height: 4rem;
   opacity: 1;
   overflow: hidden;
 
@@ -2146,11 +2150,15 @@ label {
   .faq__bottom{
     text-align: center;
     height: 4rem;
-    line-height: 7px;
+    line-height: 10px;
     font-size: calc(10px + (10 + 10 * 0.7) *((100vw - 320px) / 1200));
   }
+  .faq__bottom p{
+    padding: 0;
+    
+  }
 }
-@media(max-width:400px){
+/* @media(max-width:400px){
 
   .faq__bottom{
     text-align: center;
@@ -2158,7 +2166,7 @@ label {
 line-height: 7px;
     font-size: calc(10px + (10 + 10 * 0.7) *((100vw - 300px) / 1200));
   }
-}
+} */
 
 .activebtn{
   transition: all .4s linear;
