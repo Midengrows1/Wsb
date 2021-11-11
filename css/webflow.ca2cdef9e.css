@@ -2117,7 +2117,7 @@ label {
   /* font-size: 17px; */
   font-size: calc(14px + 3 * (100vw / 1200))
 }
-@media(max-width:700px){
+@media(max-width:800px){
 
   .faq__bottom{
     text-align: center;
