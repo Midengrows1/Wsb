@@ -2104,7 +2104,7 @@ label {
 
 .faq__bottom {
   width: 100%;
-  height: 3.5rem;
+  height: 3rem;
   border-radius: 5px;
   background-color: rgba(114, 114, 114, 0.924);
   display: flex;
@@ -2119,10 +2119,7 @@ label {
 }
 @media(max-width:800px){
   .faq__bottom{
-    display: flex;
-    text-align: center;
-    line-height: 10px;
-    font-size: calc(10px + (7 + 7 * 0.7) *((100vw - 320px) /1200));
+    font-size: calc(10px + (7 + 7 * 0.7) *((100vw - 320px) / 1200));
   }
 }
 
